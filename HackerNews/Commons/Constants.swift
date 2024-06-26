@@ -12,7 +12,7 @@ enum Constants: String {
 }
 
 enum ServerErrors: String {
-    case invalidServerUrl = "Invalid server url"
+    case invalidServerUrl = "Invalid server url found"
     case fetchingDataError = "Encountered error while fetching data from server , please check it again"
     case dataParsingError = "Issue while parsing data"
     case dataLoadingError = "Data not loaded"
